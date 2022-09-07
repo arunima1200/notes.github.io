@@ -1,0 +1,146 @@
+html{
+    font-size: 10px;
+}
+body{
+    background: #FDF5E6;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/552/681/original/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector.jpg");
+    background-size: 150px 150px;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+#h2{
+    font-size: 4.5rem;
+    background-color: rgba(252, 230, 234, 0.7);
+    text-align: center;
+}
+hr{
+    border: 4px solid black;
+    border-bottom: 1px;
+}
+.container, .container2{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container{
+    background-color: black;
+    border-radius: 6px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+header h1{
+    font-size: 6rem;
+    color: rgb(238, 14, 126);
+    background-color: rgba(252, 230, 234, 0.7);
+    line-height: 2;
+    text-align: center;
+}
+header form{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-left: 17%;
+    height: 15rem;
+}
+form > *{
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+form textarea{
+    padding: 7px 0 40px 5px;
+    resize: none;
+    overflow: hidden;
+}
+
+::placeholder{
+    font-size: 1.5rem;
+    font-family: 'PT Serif', serif;
+}
+
+form button{
+    background-color: rgb(58, 147, 220);
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;   
+}
+
+form button:hover{
+    background-color: rgb(227, 11, 92);
+}
+#notes{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'PT Serif', serif;
+}
+.notes{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+#note{
+    background-color: rgb(244, 235, 235);
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1.2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    width: 45vw;
+} 
+.note-btn{
+    padding: 7px;
+    margin: 6px;
+    background-color: rgb(58, 147, 220);
+    width: 120px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.material-icons.del, .material-icons.edit{
+    position: relative;
+    top: 4px;
+}
+.material-icons.edit{
+    font-size: 2.5rem;
+}
+.note-time{
+    font-size: 2rem;
+    color: green;
+    letter-spacing: .25rem;
+    font-family: 'Lobster', cursive;
+}
+.note-title{
+    font-size: 2.5rem;
+    font-family: 'PT Serif', serif;
+}
+.note-text{
+    font-size: 1.7rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media screen and (max-width: 550px){
+    header form{
+        width: 35rem;
+        margin-left: 9%;
+    }
+    .note-btn{
+        margin: 1px;
+        width: 248px;
+    }
+    #note{
+        padding: 1.2rem;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        width: 50vw;
+    } 
+}
