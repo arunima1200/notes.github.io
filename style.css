@@ -126,13 +126,12 @@ form button:hover{
     font-size: 1.7rem;
     font-family: 'Nunito Sans', sans-serif;
 }
-
 @media screen and (max-width: 550px){
     header h1{
         font-size: 5.5rem;
     }
     header form{
-        width: 27rem;
+        width: 20rem;
         margin-left: 5%;
     }
     #note{
@@ -143,14 +142,14 @@ form button:hover{
         font-size: 3.5rem;
     }
     .note-time{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .note-text{
         font-size: 2rem;
     }
     .note-btn{
-        width: 225px;
+        width: 200px;
         margin-left: 6.5px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
