@@ -127,20 +127,34 @@ form button:hover{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
+    header h1{
+        font-size: 5.5rem;
+    }
     header form{
-        width: 35rem;
-        margin-left: 9%;
+        width: 32rem;
+        margin-left: 5%;
     }
     .note-btn{
         margin: 1px;
-        width: 248px;
+        width: 200px;
     }
     #note{
-        padding: 1.2rem;
-        margin: 1rem;
-        margin-bottom: 2rem;
-        margin-left: 5rem;
-        width: 50vw;
+        margin-left: 1.7rem;
+        width: 65vw;
     } 
+    #h2{
+        font-size: 3.5rem;
+    }
+    .note-time{
+        font-size: 1.8rem;
+    }
+    .note-text{
+        font-size: 2rem;
+    }
+    .note-btn{
+        width: 250px;
+        margin-left: 6.5px;
+        font-size: 1.7rem;
+    }
 }
