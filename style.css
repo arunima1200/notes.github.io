@@ -127,7 +127,7 @@ form button:hover{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 500px){
     header form{
         width: 35rem;
         margin-left: 9%;
