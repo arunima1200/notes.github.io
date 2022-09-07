@@ -131,8 +131,8 @@ form button:hover{
         font-size: 5.5rem;
     }
     header form{
-        width: 27.5rem;
-        margin-left: 5%;
+        width: 28.5rem;
+        margin-left: 3%;
     }
     #note{
         margin-left: 1.7rem;
@@ -142,7 +142,8 @@ form button:hover{
         font-size: 3.5rem;
     }
     .note-time{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
     }
     .note-text{
         font-size: 2rem;
